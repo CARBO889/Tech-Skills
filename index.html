@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Tech Course</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mynavBar">
+     <!--Add video to the body element-->
+      <video autoplay loop muted id="bgvideo">
+          <source src="water++.mp4" type="video/mp4">
+      </video>
+      
+      <!--Create navigation bar with scrollspy-->
+      <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+        
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand">Complete Web Development Course</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#promise">Our Promise</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <!--Create the home section with title, goal and joins us button-->
+      <div class="jumbotron" id="home">
+          <div class="container">
+              <h1>Complete Web Development Course</h1>
+              <h2>Go from Zero-skills to Cash-Earning Web Developer</h2>
+              <p><a class="btn btn-primary" href="#">Join us Now!</a></p>
+          </div>
+      </div>
+      
+      <!--Create about section showing course details using grid system-->
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="logo.png" class="aboutImage">
+                      <h2>High Quality Lectures</h2>
+                      <p>All lectures have been very well prepared for the best learning experience of future developers.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="logo1.png" class="aboutImage">
+                      <h2>+80H of Rich Content</h2>
+                      <p>Learn all major Web Technologies: HTML5, CSS3, Javascript, JQuery, Twitter Bootstrap, PHP, mySQL, Wordpress, Ajax, XML, JSON, Mobile Apps, API's: Google Maps, Facebook and MORE!</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="logo2.png" class="aboutImage">
+                      <h2>Get Help Anytime!</h2>
+                      <p>Post your questions in the forums of the course where myself and thousands of students are happy to help!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!--Create Carousel-->
+      <div id="promise" class="container-fluid">
+          <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Crystal Clear and Engaging 100% Hands-on Lectures.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Full curriculum including all major Web Technologies: Front-End, Back end, Mobile Apps and API's.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Start from Zero-Skills! No prior Knowledge Required!</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Build over 15 real professional Websites, Games and Mobile apps.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Start Making money from week 1 and Earn over 30000$ by the time you finish the Course.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Enhance your career and employability skills.</h2>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="download.jpeg" class="d-block w-100">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h2>Lifetime access to all course material.</h2>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+      </div>
+      
+     <!-- Footer Section -->
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/parashar__ankit_/profilecard/?igsh=bnpjZGFndDZvbnZk" target="_blank" aria-label="Instagram">
+                <img src="https://img.icons8.com/fluent/48/ffffff/instagram-new.png" alt="Instagram" />
+            </a>
+            <a href="https://github.com/CARBO889" target="_blank" aria-label="GitHub">
+                <img src="https://img.icons8.com/fluent/48/ffffff/github.png" alt="GitHub" />
+            </a>
+            <a href="www.linkedin.com/in/ankit-parashar-4720b42aa" target="_blank" aria-label="LinkedIn">
+                <img src="https://img.icons8.com/fluent/48/ffffff/linkedin.png" alt="LinkedIn" />
+            </a>
+        </div>
+        <p>Created and owned by Mr. Ankit Parashar</p>
+        
+    </div>
+</footer> 
+  
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              var myCarousel = document.getElementById('myCarousel')
+              var carousel = new bootstrap.Carousel(myCarousel, {
+                  interval: 10000
+              })
+          });
+      </script>
+  </body>
+</html>
